@@ -1,0 +1,3 @@
+here it is cookie based login and developer have decrypted it so we have to encrypt it
+so now we know that user name is "sam" so convert it in binary and paste in the form as well as cookie
+know we have a sql login so write  " ' or 1=1 -- "

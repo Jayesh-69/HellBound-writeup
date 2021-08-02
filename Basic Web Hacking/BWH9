@@ -1,0 +1,11 @@
+in inspect element we get 
+ The Admin also said something about null or something like that, and he made a special script that it 
+ cannot be injected by the url. but i don't know what he is talking about (why dont you find out)
+also in page source we see that files is in <br> so i went in /files and got some files
+
+as admin is saying some thing about null if we put null byte some where it says that line end here and nothing
+is ahead so we search for login.php%00
+
+and we get new page going to page source we get username and password
+if we login it says that go to main page coming to main page and login from that same
+username and password we complete it

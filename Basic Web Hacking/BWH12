@@ -1,0 +1,13 @@
+Find the password for the protected folder and then access it!
+
+so in the parameter it says ?page=challenge.php so i changed it to 
+protected/.htaccess and got
+    AuthType Basic
+    AuthName "Restricted Area"
+    AuthUserFile ".htpasswd"
+    require valid-user
+
+so i went to .htpasswd and got
+    user:1Gwn39lwmRu9U
+
+actually it is hashed using john the ripper and word list as dictionary got the password

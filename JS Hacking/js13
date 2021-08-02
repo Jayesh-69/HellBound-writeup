@@ -1,0 +1,4 @@
+we are not authorized to see the page
+
+so we see a cookie that says authorized=false
+so changing the value to true we get the point

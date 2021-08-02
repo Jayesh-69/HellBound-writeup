@@ -1,0 +1,12 @@
+inspecting the page source i got to know that when we click login it call a function
+pasuser so i wrote pasuser in console and got :
+    pasuser(form) {
+    var text2='lolage'
+    var text4='hahaomgz'
+    if (form.text1.value==text2) { 
+        if (form.text3.value==text4) {              
+        location="index.php?text1=lol&text3=haha" 
+        }
+
+but if we submit values lolage and hahaomgz in the form we get an error that text1 is null
+so we went to this "index.php?text1=lolage&text3=hahaomgz" and got the score

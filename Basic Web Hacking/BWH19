@@ -1,0 +1,7 @@
+Drake has been studying some more PHP and has learnt about the PHP function: header(), he has 
+also found out about a new form of encryption.
+
+The password is here...somehow.
+
+i went to burp and intercept the request and inspecting response i got the password and encryption 
+type

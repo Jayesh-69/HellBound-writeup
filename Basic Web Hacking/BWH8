@@ -1,0 +1,8 @@
+here we have secure php and mysql login page
+if we enter anything in password we get an error wrong sql query if we go to inspect elements
+and see a command <!-- ?sql_query -->
+but why we have a ? in in
+.
+.
+so in same page where we got an error write ?sql_query=SELECT * from family_db
+and enter and we got the key

@@ -1,0 +1,5 @@
+when we click on use this in the uel we get ?submit=use+this
+so think hard....we can use xss
+
+so <script>alert(document.cookie)</script>
+ii got the cookie: it_was_easy

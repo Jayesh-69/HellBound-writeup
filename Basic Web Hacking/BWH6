@@ -1,0 +1,4 @@
+here if we go to /logs we see the files
+now run chmod a+x /logs/logs.txt
+rm logs/logs.txt
+rm logs/track_logs.php

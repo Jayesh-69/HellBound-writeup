@@ -1,0 +1,5 @@
+open page inspect 
+look in the form of submitting password
+you get a hint 
+<!-- When you pet me, I purr. -->
+password is ("cat")

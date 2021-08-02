@@ -1,0 +1,14 @@
+My Friend heard that HellBound Hackers Backup Generator's Admin that the had made a backup and they 
+were stored in a directory called bacups/ or backups/ and that the backup file is named in this order 
+year, month, day, hour, .sql with no minutes and he also heard that the backup was made on September of 
+2004. It looks like backup_2004-09-01_1000.sql
+
+here it says it look like so the name of file could be backup_2004-09-(01-30)_(00-23)00.sql
+
+so i created a for_r02.py where we go through each url and check for response 200
+https://www.hellboundhackers.org/challenges/real2/backups/backup_2004-09-04_1900.sql
+
+going to this we get admin:and password md5 hash decrypt it we get
+password = status
+
+so logging in we get score

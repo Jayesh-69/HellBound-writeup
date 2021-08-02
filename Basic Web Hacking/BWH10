@@ -1,0 +1,10 @@
+The following page can only be seen if your IP range is the one that is allowed. 
+This .htaccess stuff is complicated.
+
+if we go to the page and see the source we see that 
+<!-- range is around 200 to 230 and 23 to 91 -->
+
+so we probably need to spoof our ip address
+
+so i used foxyproxy to set my ip address to the ip in range 
+i found free proxy list on google

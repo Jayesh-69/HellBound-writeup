@@ -1,0 +1,9 @@
+system_meltdown coded an article script which pulls articles from the database and echoes 
+the content, but we think it could have a possible problem, he mentioned something to do with blind 
+something.
+
+i get to know about blind sql first i have to find number of colum so i used ORDER BY and got no error on 5
+Therefore colum are 5
+
+so the query is 
+UNION ALL SELECT 1,2,3,4,5 FROM Articles

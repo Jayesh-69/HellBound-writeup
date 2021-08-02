@@ -1,0 +1,5 @@
+This site has a software in which acts like a firewall, tracer, and more utilities to stop and report 
+a hacker, they have records of hackers that have being caught by that software.
+Your goal is to erase Ghost's records from the database and clear the logs by gaining admin rights, 
+and I have done some research and I found out that search_members.php?search=1 is injectable. 
+BTW my info is (Drake / theresnowayout)

@@ -1,0 +1,37 @@
+here we have a script as:
+
+// Written by SlimTim10
+// Hint: The answer may be more than one word and may contain spaces.
+
+function checkpassword()
+{
+    password = document.password.password.value; //system request
+    var a = password.charAt(9) //q
+	var c = password.charAt(4) //e
+	var b = password.charAt(10) //u
+	var d = password.charAt(7) //r
+	var f = password.charAt(6) //
+	var e = password.charAt(1) //y
+	var g = password.charAt(3) //t
+	var i = password.charAt(0)//s
+	var h = password.charAt(8) //e
+	var j = password.charAt(13) //t
+	var l = password.charAt(5) //m
+	var k = password.charAt(6) //
+	var m = password.charAt(11) //e
+	var o = password.charAt(12) //s
+	var n = password.charAt(2) //s
+	var riddle = "query test mess";
+              
+
+
+	if (a+b+c+d+e+f+g+h+i+j+k+l+m+n+o == riddle && password.length == 14)
+	{
+		alert("Congratulations!");
+	}
+	else
+	{
+		alert("Wrong, but keep at it!");
+	}
+
+}

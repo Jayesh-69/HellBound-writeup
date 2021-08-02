@@ -1,0 +1,9 @@
+The HBH staff have been getting alot of personal messages regarding various different things, so 
+they decided to set up a contact form, for users to contact them by. The only problem is, the contact 
+form has a big security hole in it, see if you can find the hole and intercept a message as some 
+sensitive data is being sent along with the email.
+
+here the hole is in SMPT server
+
+now in burp we add after email address that Bcc:jayeshmaheshwari555@gmail.com so that we also get a mail
+and we got a mail with password in it

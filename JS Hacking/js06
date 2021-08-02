@@ -1,0 +1,16 @@
+here inspecting what happen when we click submit it call function checkPass so:
+    function checkPass(){
+    Location  = document.form.password.value
+    Location = "js6-" + "window.open" + ".php"
+    if (document.form.password.value == Location ) {
+        alert("Good Job!")
+        window.open(Location)
+        }
+
+    else{
+        alert("Try Again!")
+        }
+
+    }
+
+so opening /js6-window.open.php i passed the level

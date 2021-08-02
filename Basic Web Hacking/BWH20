@@ -1,0 +1,11 @@
+This time Drake finally thought that he secured his login and has asked you to test it's security. 
+Try to login as the admin. You can log in as fire:water.
+
+when i logged in as fire and saw the source code i saw a js method to set the cookie whoami to fire
+so i changed it to admin
+
+and i got:
+    Nice try, but that isn't the answer we were looking for, there is another way to bypass 
+    this login, maybe it's a MySQL login that uses cookies...
+
+so i inject admin'or1=1-- in cookie and got the point

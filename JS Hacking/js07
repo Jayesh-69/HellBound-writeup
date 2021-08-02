@@ -1,0 +1,38 @@
+here onload a function is called password():
+    <script language="JavaScript" type="6fdcc0175c7eee952dff980b-text/javascript">
+
+    function password () {
+
+        var s1, a2, v3, e4, input;
+
+        s1=window.document.bgColor; // #D0D0D0
+
+        a2=window.document.linkColor; // #FF9900
+
+        v3=s1.substring (6,9)+a2.substring (2,8); // 0F9900
+        e4=v3.toUpperCase ();
+
+
+        
+        input=prompt("Password:","");
+
+        if (input!=v3 && input!=e4) {
+
+        alert("Wrong!");
+
+        window.location.href="../index.php";
+
+        }
+
+        else {
+
+        window.location.href=v3+".php";
+
+        }
+
+    }
+
+but here the var v3 and e4 were to far means they had many spaces before them so it was quiet hard to not
+find them but here i found them
+
+so finding s1 and a2 in the source code and calculating v3 i got scored

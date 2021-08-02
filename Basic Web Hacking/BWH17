@@ -1,0 +1,5 @@
+only.Samurai made this login thinking it wasn't vulnerable to any injection, he was right, 
+however; there was another hole.
+
+so here in the page source i saw a applet code basic17.class so i opened it and saw what it does
+reading it i got the url and passed the level

@@ -1,0 +1,16 @@
+going to sources and level5.js we get this :
+    a = prompt("Please enter password!","");
+    date = new Date();
+    b = date.getFullYear();
+    if(a == b){
+    alert("Good job! You got it!");
+    window.location.href=b+".php";
+    }
+    else
+    {
+    alert("Try it again!");
+
+    }
+analyzing we get b=2021 so on entering password as 2021 we redirected to 2021.php but we get
+file not found
+so i entered 2020.php in url and get scored

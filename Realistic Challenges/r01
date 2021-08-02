@@ -1,0 +1,22 @@
+Your goal for this mission is to log in as an registered user (johndoe/password) and analyze the site 
+to gain administrator rights to change the price of the program to make it a lot more cheaper.
+
+first seeing the page source we see a image in /images/one.jpg
+so i went to /images and found JohnDoe.txt and administrator.txt going to JohnDoe.txt we get
+
+    JohnDoe
+    password = password:5d2e19393cc5ef67 
+    Network analysis
+
+    sessionid: 4601597
+
+and in administrator.txt we have
+
+    administrator
+    password = password:60c033095644bd16 
+
+    status:administrator
+
+    AuthID: 4601420
+
+so now to go toys.php and change the authid as administrator and change the price to 1

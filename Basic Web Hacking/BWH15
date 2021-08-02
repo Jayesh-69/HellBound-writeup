@@ -1,0 +1,8 @@
+For this mission you will need to find a secret file using a common technique to find hidden directories.
+in page source we have :
+    <!-- Try googling for a file that is used to block the googlebot -->
+i think its robots.txt lets check
+going to robots.txt we have:
+    User-agent: *
+    Disallow: abc/hidden.txt
+going abc/hidden.txt we got the password

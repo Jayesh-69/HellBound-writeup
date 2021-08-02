@@ -1,0 +1,13 @@
+Drake's school employed some new tech guys to help block "bad" websites such as www.hellboundhackers.org.
+He told me that his friend coded up something in cURL to get the page and display it, 
+he also mentioned that it uses numbers to bypass the site
+
+googling about url obscure we see that a site can also we called using number ex:
+    http://www.pc-help.org/obscure.htm.
+    http://3468664375@3468664375/o%62s%63ur%65%2e%68t%6D
+above both are same
+
+go to this site and read it and do the procedure to get the decimal of the ip address of
+hellboundhackers
+
+first find ip using nslookup convert the ip to decimal and paste it and get site

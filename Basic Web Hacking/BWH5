@@ -1,0 +1,13 @@
+in inspect element we got a hint 
+"attention admin: * is a wildcard"
+
+in email if i use "*"
+a got an error "Error 2231:username=* and password=*"
+
+and if i use username:password = *:*
+we still cant login
+
+what if i use email in place of user : "*@*:*"
+here first * is username sec * is domain 3rd * is password
+
+and boom we login

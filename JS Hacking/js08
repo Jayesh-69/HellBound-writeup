@@ -1,0 +1,2 @@
+in page source we see a cookie named secret and seeing it we know that it is hex encoded
+so converting hex to text and submitting it we get the point

